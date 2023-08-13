@@ -1,0 +1,26 @@
+{
+  "name": "php-core/changelly-fiat",
+  "type": "library",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "iSecNew10",
+      "email": "php@isecnew10.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPCore\\Changelly\\Fiat\\": "src",
+      "PHPCore\\Changelly\\Fiat\\Exceptions\\": "src/exceptions"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "ext-openssl": "*",
+    "defuse/php-encryption": "^2.3",
+    "guzzlehttp/guzzle": "^7.7",
+    "isecpay/crypto-exchange": "dev-master"
+  }
+}
